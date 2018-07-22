@@ -1,0 +1,67 @@
+Results for Assignment3 unit testing:
+unittest1:
+Testing updateCoins().... PASSED
+Testing updateCoins().... PASSED
+Testing updateCoins().... PASSED
+File 'dominion.c'
+Lines executed:1.94% of 566
+Creating 'dominion.c.gcov'
+
+unittest2:
+Testing isGameOver().... PASSED
+Testing isGameOver().... PASSED
+Testing isGameOver().... PASSED
+File 'dominion.c'
+Lines executed:17.49% of 566
+Creating 'dominion.c.gcov'
+
+unittest3:
+Testing scoreFor() .... FAILED **
+Testing scoreFor() .... PASSED
+Testing scoreFor() .... FAILED **
+File 'dominion.c'
+Lines executed:6.18% of 566
+Creating 'dominion.c.gcov'
+
+unittest4:
+Testing buyCard().... PASSED
+Testing buyCard().... PASSED
+Testing buyCard().... PASSED
+Testing buyCard().... PASSED
+File 'dominion.c'
+Lines executed:20.32% of 566
+Creating 'dominion.c.gcov'
+
+cardtest1:
+Testing Smithy().... FAILED **
+Testing Smithy().... FAILED **
+Testing Smithy().... FAILED **
+File 'dominion.c'
+Lines executed:22.79% of 566
+Creating 'dominion.c.gcov'
+
+cardtest2:
+Testing Adventurer().... FAILED **
+Testing Adventurer().... FAILED **
+Testing Adventurer().... FAILED **
+File 'dominion.c'
+Lines executed:22.79% of 566
+Creating 'dominion.c.gcov'
+
+cardtest3:
+Testing SeaHag().... FAILED **
+Testing SeaHag().... FAILED **
+Testing SeaHag().... FAILED **
+File 'dominion.c'
+Lines executed:22.44% of 566
+Creating 'dominion.c.gcov'
+
+cardtest4:
+Testing Salvager().... FAILED **
+Testing Salvager().... FAILED **
+Testing Salvager().... FAILED **
+Testing Salvager().... PASSED
+File 'dominion.c'
+Lines executed:24.56% of 566
+Creating 'dominion.c.gcov'
+
