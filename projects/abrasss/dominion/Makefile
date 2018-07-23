@@ -1,6 +1,6 @@
 CFLAGS = -Wall -fpic -coverage -lm
 
-unittestresults.out: clean unittests cardtests
+unittestresults: clean unittests cardtests
 	@echo "Results for Assignment3 unit testing:" > tests.out
 	
 	@echo "unittest1:" | tee -a tests.out
@@ -42,6 +42,8 @@ unittestresults.out: clean unittests cardtests
 	@/bin/rm -f dominion.gcda
 	@ ./cardtest4 | tee -a tests.out
 	@gcov dominion.c | tee -a tests.out
+
+	@mv tests.out unittestresults.out
 
 rngs.o: rngs.h rngs.c
 	gcc -c rngs.c -g  $(CFLAGS)
